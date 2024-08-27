@@ -1,0 +1,13 @@
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  gap: 24px;
+}
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+/* .gallery-image:hover {
+  transform: scale(1.1);
+} */
